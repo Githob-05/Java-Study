@@ -36,8 +36,9 @@ public class MS {
       if (userInput == 1 || userInput == 2) {
         System.out.print("날짜(1 ~ 30) >> ");
         dayInput = sc.nextInt();
+        sc.nextLine();
+
       }
-      sc.nextLine();
       switch (userInput) {
         case 1:
           System.out.print("할 일(빈칸 없이 입력) >> ");
